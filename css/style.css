@@ -64,11 +64,18 @@ height: 64px;
 /**************************************************
 HERO(JUMBOTRON PAGE)
 **************************************************/
+
 .hero-page {
  background-color: #eeeeee;
  height: 400px;
  position:relative;
 }
+
+.hero-page.hand-photo {
+    
+    background: url('../img/newHome_handTest.jpg') no-repeat center / cover;
+    }
+
 .hero-page .container {
  height:400px;
 }
@@ -102,7 +109,7 @@ margin-top:1em;
 .product-design-bar {
 background-color: #666;
     color:white;
-/*height: calc(96px / 2);*/
+
 }
 
 .product-design-bar h2 {
@@ -142,6 +149,7 @@ padding-top:1rem;
     
     @media screen and (min-width: 54rem) {
     
+        
     .h1  {
     
     font-family: 'Lato', sans-serif;
@@ -159,8 +167,6 @@ padding-top:1rem;
     }
     
     
-    }
-    
     
     @media screen and (min-width: 70rem) {
        
@@ -169,6 +175,7 @@ padding-top:1rem;
     }
     .hero-page {
      height: 800px;
+    
      }
     
        
@@ -189,5 +196,6 @@ padding-top:1rem;
     
     
     }
+
 
     
