@@ -186,6 +186,12 @@ PRODUCTION DESIGN SECTION
 height:400px;
 }
 
+.curveline {
+width:100%;
+    position:absolute;
+    z-index:-100;
+    
+}
 .pd-grid > div {
 font-family: 'Lato', sans-serif;
     font-weight:200;
@@ -198,6 +204,8 @@ font-family: 'Lato', sans-serif;
     height: 32px;
     background-color:#666;
 }
+
+
 
 /*******************************************
 CLIENT SECTION 
