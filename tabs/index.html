@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Test tabs for prototype</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+  <link rel="stylesheet" href="animate.min.css">
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+</head>
+<body>
+ 
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Overview</a></li>
+    <li><a href="#tabs-2">Subset1</a></li>
+    <li><a href="#tabs-3">Subset2</a></li>
+  </ul>
+  <div class="animated zoomInDown" id="tabs-1">
+    <p>This is tab1</p>
+  </div>
+  <div class="animated zoomInDown" id="tabs-2">
+    <p>Some more text here tab2.</p>
+  </div>
+  <div class="animated zoomInDown" id="tabs-3">
+    <p>Look ma more text, tab3</p>
+    <p>Lalala</p>
+  </div>
+</div>
+ 
+ 
+</body>
+</html>
